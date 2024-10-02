@@ -41,4 +41,14 @@ Key ideas of Spring framework:
 
 - Foundations that enable the Spring framework -> Spring context and Sprng aspects
 - all Spring's capabilities rely on Spring context and Spring aspects
-- Spring fgdf
+- crucial working with a Spring framework -> context also known as application context in a Spring app
+context -> a place in the momemory of the app where i add the object instances that i want the framework to manage
+- by default, Spring doesn't know any of the objects I've define in my application
+- to enable spring to see my objects I need to add them to the application context in a Spring app or define them as a Bean
+- Spring uses the instances (objects) in the context to connect my app to various functionalities Spring provides
+- learning what Spring context is and how Spring context works is the first step learning to use Spring
+- The focus on practicing to use Spring context and learning to use Spring context
+- in Laravel it is similiar to Laravel service container for managing class dependencies and performing dependency injection
+- you can think of dependency injection as injecting kung ano kailangan na class ang ang objects niya to function via constructor (usual), or may cases na sa setter methods
+- how to add object instances to the Spring context
+- not all the objects of an app need to be managed by Spring, i don't need to add all the object instances of my app to the Spring context
